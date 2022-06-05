@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ActionsApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ActionsApplication.class, args);
+		System.out.println("Java Applications has ben started!!!");
 	}
 
 }
