@@ -18,7 +18,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Run Coverage
-        run: mvn sonar:sonar -Pcoverage
+        run: maven clean verify
       - name: Run tests
         run: mvn test
 
